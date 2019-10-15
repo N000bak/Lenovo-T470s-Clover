@@ -224,7 +224,7 @@
 		<key>Arguments</key>
 		<string>kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
-		<string>osX</string>
+		<string>Macintosh HD</string>
 		<key>IgnoreNVRAMBoot</key>
 		<false/>
 		<key>Log</key>
@@ -236,7 +236,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>10</integer>
+		<integer>0</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
