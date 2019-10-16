@@ -4,6 +4,15 @@ This repo contains the files and scripts to install macOS on the Lenovo T470s fa
 
 Tested on macOS 10.15 Catalina
 
+## Setup BIOS Settings:
+
+* Set Security / Memory Protection / Execution Prevention = Enabled
+* Set Virtualization / Intel VT = Disabled (you can enable it later)
+* Set Virtualization / Intel VT-d = Disabled (you can enable it later)
+* Set Secure Boot / Secure Boot = Disabled
+* Set Startup / UEFI/Legacy Boot = UEFI Only
+* SET Startup / CSM Support = Yes
+
 ## Bugs:
 * The trackpad works, but the trackpad buttons work like the right one. The speed of the trackpad is too high.
 * No brightness is maintained after the restart
