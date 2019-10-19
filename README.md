@@ -22,6 +22,6 @@ Tested on macOS 10.15 Catalina
 - i5-7200U
 - HD620
 - 1920x1080 (FHD)
-- DDR4 2133 20G (4G x 1, 16G x 2)
+- DDR4 2133 20G (4G x 1, 16G x 1)
 - Dell Wireless 1560
 - 256GB NVMe SSD (Toshiba)
