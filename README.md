@@ -14,8 +14,7 @@ Tested on macOS 10.15 Catalina
 * SET Startup / CSM Support = Yes
 
 ## Bugs:
-* The trackpad works, but the trackpad buttons work like the right one. The speed of the trackpad is too high.
-* No brightness is maintained after the restart
+* The trackpad buttons don't work. Trackpad speed is too slow.
 
 ## My laptop
 **Lenovo Thinkpad T470s**

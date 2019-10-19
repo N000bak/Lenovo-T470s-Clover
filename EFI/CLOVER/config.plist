@@ -343,8 +343,6 @@
 		<key>Theme</key>
 		<string>ThinkPad</string>
 	</dict>
-	<key>Graphics</key>
-	<dict/>
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
@@ -712,16 +710,66 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02814802CDJP4F1M</string>
+		<key>ROM</key>
+		<data>
+		yFt2/uUu
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>ProductName</key>
-		<string>MacBookPro13,1</string>
-		<key>Trust</key>
+		<key>BiosReleaseDate</key>
+		<string>05/28/2019</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MBP141.88Z.F000.B00.1905281616</string>
+		<key>Board-ID</key>
+		<string>Mac-B4831CEBD52A0C4C</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02747306GUHWVPA8</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>MacBook-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>196.0.0.0.0</string>
+		<key>Family</key>
+		<string>MacBook Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
 		<true/>
+		<key>PlatformFeature</key>
+		<string>0x1A</string>
+		<key>ProductName</key>
+		<string>MacBookPro14,1</string>
+		<key>SerialNumber</key>
+		<string>C02VQ05VHV29</string>
+		<key>SmUUID</key>
+		<string>8404FD16-2D36-4A5F-B92D-A780137A2EC6</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>DA37C444-4ABC-56EE-AEA6-E157B433361A</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
