@@ -15,6 +15,8 @@ Tested on macOS 10.15 Catalina
 
 ## Bugs:
 * The trackpad buttons don't work. Trackpad speed is too slow.
+* Type-C only works as a charging port
+* USB next to Ethernet doesn't work
 
 ## My laptop
 **Lenovo Thinkpad T470s**
