@@ -35,7 +35,7 @@ It's a `95%` working hackintosh, including:
 
 ### BIOS Settings
 
-The bios must be properly configured prior to installing MacOS.
+The bios must be properly configured before installing MacOS.
 
 In `Security` menu, set the following settings:
 
@@ -46,7 +46,7 @@ In `Security` menu, set the following settings:
 - `Anti-Theft > Current Setting`: **Disabled**
 - `Anti-Theft > Computrace > Current Setting`: **Disabled**
 
-In `Startup` menu, set the following options:
+In the `Startup` menu, set the following options:
 
 - `UEFI/Legacy Boot`: **UEFI Only**
 - `CSM Support`: **Yes**
@@ -55,7 +55,7 @@ Now you can go through the install.
 
 ### Bootable USB Drive
 
-The guide [how to create a Catalina USB Installer Drive](https://hackintosher.com/guides/how-to-make-a-macos-10-15-catalina-flash-drive-installer/) explains how to create a USB flash drive to install MacOs on your T470s.
+The guide [how to create a Catalina USB Installer Drive](https://hackintosher.com/guides/how-to-make-a-macos-10-15-catalina-flash-drive-installer/) explains how to create a USB flash drive to install MacOS on your T470s.
 
 ### Copy EFI Folder to USB
 
@@ -63,13 +63,13 @@ Copy the content of the `EFI` folder provided here on your USB flash drive `EFI`
 
 ### Install macOS
 
-Install macOS by booting on the USB key. It takes about 30min. The computer will restart multiple times. Make sure to select `Install macOS ...` each time. Once installed, choose to boot from local drive in Clover boot menu.
+Install macOS by booting on the USB key. It takes about 30min. The computer will restart multiple times. Make sure to select `Install macOS ...` each time. Once installed, choose to boot from the local drive in Clover boot menu.
 
 ### What's next?
 
 To finish the setup, you need to:
 
-- **Copy EFI** folder from USB flash drive to local drive `EFI` partition (like you did for the USB drive). It will make the local drive bootable (so you can get ride of the USB drive now)
+- **Copy EFI** folder from USB flash drive to local drive `EFI` partition (like you did for the USB drive). It will make the local drive bootable (so you can get rid of the USB drive now)
 
 You're almost done! Reboot and enjoy macOS on your Thinkpad T470s.
 
@@ -77,7 +77,7 @@ You're almost done! Reboot and enjoy macOS on your Thinkpad T470s.
 
 ### SSD Enable Trim
 
-If you Sata ssd hasn't trim enabled, run the following command from the *Terminal* to enable it:
+If you Sata SSD hasn't trim enabled, run the following command from the *Terminal* to enable it:
 
 ```
 sudo trimforce enable
@@ -85,24 +85,20 @@ sudo trimforce enable
 
 ### Touchpad / Trackpoint Kext
 
-The trackpoint / Touchpad driver used here is the one from [tluck on Insanelymac](https://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/).
+The TrackPoint / Touchpad driver used here is the one from [tluck on Insanelymac](https://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/).
 
 **Improving scrolling responsiveness**
 
-Turn off 'inertia' at system-pref/accessibility/mouse & trackpad/trackpad options.
+Turn off 'inertia' in System Preferrences/accessibility/Pointer Control/Trackpad Options.
 
-Insstall [Smart Scroll](https://www.marcmoini.com/sx_fr.html). under 'Scroll Wheel+' - Turn up 'Range for a single tick' to max. (this gives the appearance that scrolling becomes more sensitive)
+Install [Smart Scroll](https://www.marcmoini.com/sx_fr.html). under 'Scroll Wheel+' - Turn up 'Range for a single tick' to the max. (this gives the appearance that scrolling becomes more sensitive)
 Then you can adjust the speed and inertia under the same tab.
 
 **Fix Stuttering**
 
 To solve the jittery mouse, increase the speed with [BetterTouchTool](https://folivora.ai/) to about '8'. The touchpad feels almost the same as on my MacBook now, but the scrolling is still slow and awful. I will solve it somehow!
 
-Special thanks to **Romeo Blues** for these tweaks. Those definitely improve how the touchpad feels!
-
-### HiDPI
-
-For FHD (1920x1080) panels, I recommend to install [One Key HiDPI](https://github.com/xzhih/one-key-hidpi).
+Special thanks to **Romeo Blues** for these tweaks. Those improve how the touchpad feels!
 
 ### iMessage / iCloud / FaceTime
 
