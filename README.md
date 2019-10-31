@@ -35,7 +35,7 @@ It's a `95%` working hackintosh, including:
 
 ### BIOS Settings
 
-The bios must be properly configured before installing MacOS.
+The BIOS must be properly configured before installing MacOS.
 
 In `Security` menu, set the following settings:
 
@@ -74,6 +74,10 @@ To finish the setup, you need to:
 You're almost done! Reboot and enjoy macOS on your Thinkpad T470s.
 
 ## Miscellaneous
+
+### Enter the Clover menu
+
+This config has a Clover timeout of 0. In order to enter the Clover menu, after rebooting and passing the BIOS screen, repeatedly press `left` `right`. This will pausing booting and display the menu.
 
 ### SSD Enable Trim
 
