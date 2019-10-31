@@ -17,12 +17,14 @@ Tested on Catalina, `10.15` & `10.15.1` with the following hardware:
 
 It's a `95%` working hackintosh, including:
 
-- *Apfs* disk partitions: using `ApfsDriverLoader-64.efi`
-- Brightness control: Thanks to [WhatEverGreen](https://github.com/acidanthera/WhateverGreen) kext
-- Audio on speakers: using [AppleALC](https://github.com/acidanthera/AppleALC) kext
-- Graphical acceleration (QE/CI): thanks to [WhatEverGreen](https://github.com/acidanthera/WhateverGreen) kext
+- *Apfs* disk partitions: `ApfsDriverLoader-64.efi`
+- Brightness control: [WhatEverGreen](https://github.com/acidanthera/WhateverGreen) kext
+- Audio on speakers: [AppleALC](https://github.com/acidanthera/AppleALC) kext
+- Graphical acceleration (QE/CI): [WhatEverGreen](https://github.com/acidanthera/WhateverGreen) kext
 - Audio Jack connector
 - SD card reader
+- TrackPoint / Touchpad driver: [VoodooPS2](https://github.com/acidanthera/VoodooPS2).
+- Trim enabled
 
 ## Bugs
 
@@ -79,17 +81,7 @@ You're almost done! Reboot and enjoy macOS on your Thinkpad T470s.
 
 This config has a Clover timeout of 0. In order to enter the Clover menu, after rebooting and passing the BIOS screen, repeatedly press `left` `right`. This will pausing booting and display the menu.
 
-### SSD Enable Trim
-
-If you Sata SSD hasn't trim enabled, run the following command from the *Terminal* to enable it:
-
-```
-sudo trimforce enable
-```
-
-### Touchpad / Trackpoint Kext
-
-The TrackPoint / Touchpad driver used here is the one from [tluck on Insanelymac](https://www.insanelymac.com/forum/topic/315451-guide-lenovo-t460-macos-with-clover/).
+### Auxiliary Software
 
 **Improving scrolling responsiveness**
 
@@ -101,12 +93,6 @@ Then you can adjust the speed and inertia under the same tab.
 **Fix Stuttering**
 
 To solve the jittery mouse, increase the speed with [BetterTouchTool](https://folivora.ai/) to about '8'. The touchpad feels almost the same as on my MacBook now, but the scrolling is still slow and awful. I will solve it somehow!
-
-Special thanks to **Romeo Blues** for these tweaks. Those improve how the touchpad feels!
-
-### iMessage / iCloud / FaceTime
-
-Make sure to following [this guide](https://hackintosher.com/guides/quick-fixes-facetime-icloud-imessage-hackintosh-not-working/) to configure iMessage, iCloud and Facetime properly. 
 
 ## Changelog
 
