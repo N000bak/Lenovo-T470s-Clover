@@ -61,7 +61,7 @@ The guide [how to create a Catalina USB Installer Drive](https://hackintosher.co
 
 ### Copy EFI Folder to USB
 
-Copy the content of the `EFI` folder provided here on your USB flash drive `EFI` partition. The EFI partition is usually hidden. Use [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) to mount the EFI partition of your flash drive on your mac (it appears as a disk on the desktop once done).
+Copy the content of the `EFI` folder provided here on your USB flash drive `EFI` partition. The EFI partition is usually hidden. Use the following command: `sudo diskutil mount diskXsX` (where X is the number of the disk and partition with EFI) to mount the EFI partition of your flash drive on your mac (it appears as a disk on the desktop once done).
 
 ### Install macOS
 
