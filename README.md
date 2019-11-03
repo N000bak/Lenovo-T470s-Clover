@@ -96,4 +96,4 @@ To solve the jittery mouse, increase the speed with [BetterTouchTool](https://fo
 
 ## Changelog
 
-[Available here](changelog.md)
+[Available here](CHANGELOG.md)
